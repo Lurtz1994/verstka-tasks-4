@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'distant_galaxyregular';
+    src: url('DISTGRG_-webfont.eot');
+    src: url('DISTGRG_-webfont.eot?#iefix') format('embedded-opentype'),
+    url('DISTGRG_-webfont.woff') format('woff'),
+    url('DISTGRG_-webfont.ttf') format('truetype'),
+    url('DISTGRG_-webfont.svg#distant_galaxyregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'seasideresortnfregular';
+    src: url('SEASRN__-webfont.eot');
+    src: url('SEASRN__-webfont.eot?#iefix') format('embedded-opentype'),
+    url('SEASRN__-webfont.woff') format('woff'),
+    url('SEASRN__-webfont.ttf') format('truetype'),
+    url('SEASRN__-webfont.svg#seasideresortnfregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'capture_itregular';
+    src: url('Capture_it-webfont.eot');
+    src: url('Capture_it-webfont.eot?#iefix') format('embedded-opentype'),
+    url('Capture_it-webfont.woff') format('woff'),
+    url('Capture_it-webfont.ttf') format('truetype'),
+    url('Capture_it-webfont.svg#capture_itregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+#title {
+    font-family: seasideresortnfregular,fantasy;
+    font-size: 100px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.quote {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-size: 120%;
+}
+.runningTitle {
+    font-family: timesnewroman ,serif;
+    font-size: 15px;
+    font-style: italic;
+    padding: 10px;
+    text-align: right;
+}
+p {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    text-indent: 20px;
+}
+.leftArticle {
+    font-size: 12px;
+    width: 60%;
+    column-count: 3;
+    -webkit-column-width: 240px;
+    left: 0;
+    position: absolute;
+    text-align: justify;
+}
+.leftArticle h3 {
+    font-family: distant_galaxyregular,fantasy;
+    font-size: 20px;
+}
+.author {
+    text-align: right;
+    font-style: italic;
+    font-size: 110%;
+}
+.rightArticle {
+    font-family: verdana, serif;
+    width: 38%;
+    -webkit-column-count: 2;
+    column-count: 2;
+    column-width: 200px;
+    -webkit-column-width: 200px;
+    right: 0;
+    float: right;
+    border: 1px solid black;
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+.rightArticle h3 {
+    column-span: all;
+    -webkit-column-span: all;
+}
+.score {
+    font-weight: bold;
+    font-size: 110%;
+}
+.discipline {
+    font-size: 110%;
+    font-weight: bolder;
+    text-align: center;
+}
+.bottomArticle {
+    font-family: georgia,serif;
+    font-size: 12px;
+    width: 100%;
+    column-count: 3;
+    column-width: 250px;
+    -webkit-column-width: 250px;
+    -webkit-column-rule-width: 1px;
+    -webkit-column-rule: solid;
+    text-align: justify;
+}
+.bottomArticle h2 {
+    font-family: capture_itregular,sans-serif;
+    -webkit-column-span: all;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+
+}
