@@ -31,6 +31,9 @@
 .shield {
     height:100px;
 }
+.pic {
+    width:95%;
+}
 .title {
     font-family: seasideresortnfregular,fantasy;
     font-size: 100px;
