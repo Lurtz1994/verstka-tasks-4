@@ -1,4 +1,5 @@
-@font-face {
+@font-face
+{
     font-family: 'distant_galaxyregular';
     src: url('DISTGRG_-webfont.eot');
     src: url('DISTGRG_-webfont.eot?#iefix') format('embedded-opentype'),
@@ -8,7 +9,9 @@
     font-weight: normal;
     font-style: normal;
 }
-@font-face {
+
+@font-face
+{
     font-family: 'seasideresortnfregular';
     src: url('SEASRN__-webfont.eot');
     src: url('SEASRN__-webfont.eot?#iefix') format('embedded-opentype'),
@@ -18,7 +21,9 @@
     font-weight: normal;
     font-style: normal;
 }
-@font-face {
+
+@font-face
+{
     font-family: 'capture_itregular';
     src: url('Capture_it-webfont.eot');
     src: url('Capture_it-webfont.eot?#iefix') format('embedded-opentype'),
@@ -28,13 +33,24 @@
     font-weight: normal;
     font-style: normal;
 }
-.shield {
+
+body
+{
+    font-size: 15px;
+}
+
+.shield
+{
     height:100px;
 }
-.pic {
+
+.pic
+{
     width:95%;
 }
-.title {
+
+.title
+{
     font-family: seasideresortnfregular,fantasy;
     font-size: 100px;
     line-height: 20px;
@@ -43,34 +59,102 @@
     letter-spacing: 40px;
     border-bottom: 1px solid #000;
 }
-blockquote {
+
+input[id='blue']:checked ~ .all article
+{
+    background: darkblue;
+    color: aqua;
+}
+
+input[id='white']:checked ~ .all article
+{
+    background: white;
+}
+
+input[id='small']:checked ~ .all article
+{
+    font-size: 10px;
+}
+
+input[id='normal']:checked ~ .all article
+{
+    font-size: 12px;
+}
+
+input[id='large']:checked ~ .all article
+{
+    font-size: 16px;
+}
+
+input[id='serif']:checked ~ .all article .bottom-article
+{
+    font-family: timesnewroman, serif;
+}
+
+input[id='serif']:checked ~ .all article .right-article
+{
+    font-family: verdana, serif;
+}
+
+input[id='serif']:checked ~ .all article .left-article
+{
+    font-family: georgia, serif;
+}
+
+input[id='sans-serif']:checked ~ .all .bottom-article
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[id='sans-serif']:checked ~ .all .right-article
+{
+    "Trebuchet MS", Helvetica, sans-serif
+}
+
+input[id='sans-serif']:checked ~ .all .left-article
+{
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+blockquote
+{
     padding-left:0 10px 10px;
     font-size: 120%;
 }
-time {
+
+time
+{
     font-family: timesnewroman ,serif;
     font-size: 15px;
     font-style: italic;
 }
-p {
+
+p
+{
     display: block;
     margin: 0;
     text-indent: 20px;
 }
-.leftArticle p::first-letter {
+
+.left-article p::first-letter
+{
     font-size: larger;
     font-weight: bolder;
 }
-.bottomArticle p::first-letter{
-    font-size: 150%;
+
+.bottom-article p::first-letter
+{
+    font-size: 100%;
     font-style: italic;
 }
-.leftArticle {
+
+.left-article
+{
     -webkit-column-count: 3;
     -webkit-column-width: 240px;
     -moz-column-count: 3;
     -moz-column-width: 240px;
-    font-size: 12px;
+    font-size: 80%;
     width: 60%;
     column-count: 3;
     column-width: 240px;
@@ -79,21 +163,26 @@ p {
     float: left;
     display: inline-block;
 }
-.leftArticle h3 {
+
+.left-article h3
+{
     font-family: distant_galaxyregular,fantasy;
     font-size: 20px;
 }
-.author {
+
+.author
+{
     text-align: right;
     font-style: italic;
     font-size: 110%;
 }
-.rightArticle {
+
+.right-article
+{
     -webkit-column-count: 2;
     -webkit-column-width: 200px;
     -moz-column-count: 2;
     -moz-column-width: 200px;
-    font-family: verdana, serif;
     width: 38%;
     column-count: 2;
     column-width: 200px;
@@ -101,23 +190,33 @@ p {
     border: 1px solid black;
     text-align: center;
 }
-h3 {
+
+h3
+{
     text-align: center;
 }
-.rightArticle h3 {
+
+.right-article h3
+{
     -webkit-column-span: all;
     column-span: all;
 }
-.score {
+
+.score
+{
     font-weight: bold;
     font-size: 110%;
 }
-.discipline {
+
+.discipline
+{
     font-size: 110%;
     font-weight: bolder;
     text-align: center;
 }
-.bottomArticle {
+
+.bottom-article
+{
     -webkit-column-count: 4;
     -webkit-column-width: 250px;
     -webkit-column-rule: 1px solid;
@@ -135,7 +234,9 @@ h3 {
     display: inline-block;
     margin: 10px;
 }
-.bottomArticle h2 {
+
+.bottom-article h2
+{
     -webkit-column-span: all;
     font-family: capture_itregular,sans-serif;
     column-span: all;
