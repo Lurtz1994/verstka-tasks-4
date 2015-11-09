@@ -49,6 +49,18 @@ body
     width:95%;
 }
 
+.fig
+{
+    width: 250px;
+    margin:0;
+    padding:0;
+}
+
+figcaption
+{
+    text-align: center;
+}
+
 .title
 {
     font-family: seasideresortnfregular,fantasy;
@@ -161,7 +173,10 @@ p
     left: 0;
     text-align: justify;
     float: left;
-    display: inline-block;
+    word-break: break-all;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
 }
 
 .left-article h3
@@ -189,6 +204,10 @@ p
     float: right;
     border: 1px solid black;
     text-align: center;
+    word-break: break-all;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
 }
 
 h3
@@ -231,8 +250,11 @@ h3
     column-rule: 1px solid;
     text-align: justify;
     float:left;
-    display: inline-block;
+    word-break: break-all;
     margin: 10px;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
 }
 
 .bottom-article h2
