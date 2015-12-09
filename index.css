@@ -177,6 +177,7 @@ p
     -moz-hyphens: auto;
     -webkit-hyphens: auto;
     -ms-hyphens: auto;
+    hyphens: auto;
 }
 
 .left-article h3
@@ -208,6 +209,7 @@ p
     -moz-hyphens: auto;
     -webkit-hyphens: auto;
     -ms-hyphens: auto;
+    hyphens: auto;
 }
 
 h3
@@ -255,6 +257,7 @@ h3
     -moz-hyphens: auto;
     -webkit-hyphens: auto;
     -ms-hyphens: auto;
+    hyphens: auto;
 }
 
 .bottom-article h2
